@@ -58,31 +58,67 @@ html{
 }
 
 
-h1,h2{
-  font-family: 'Raleway', sans-serif;
-  margin:0;
-  padding:0;
-}
+/* CSS HEX */
+/*--prussian-blue: #003049ff;
+--maximum-red: #d62828ff;
+--orange: #f77f00ff;
+--maximum-yellow-red: #fcbf49ff;
+--lemon-meringue: #eae2b7ff;*/
 
-h1{
-  font-weight:300;
-  font-size:5rem;
-}
-
-h2{
-  font-weight:600;
-  font-size:2rem;
-}
+/*HEADER*/
 
 .hero{
-  background-color:lightgray;
-  padding:50px 0;
+  background-color:#14213d;
+  padding:150px 0 25px 0;
+  margin-bottom:25px;
 }
 
 .hero__content{
   max-width:800px;
   margin: 0 auto;
 }
+
+.highlight{
+  background-color:#fca311;
+  padding:0 5px;
+  font-weight:400;
+  position:relative;
+  transition: all .25s ease 0s;
+  bottom:0;
+  color:#14213d;
+}
+
+
+.highlight:hover{
+  background-color:yellow;
+  bottom:5px;
+}
+
+h1,h2,h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  font-weight:300;
+  font-size:4rem;
+  margin:0;
+  padding:0;
+  color:#e5e5e5;
+}
+
+h2{
+  font-weight:600;
+  font-size:2.5rem;
+  margin-top:50px;
+}
+
+h3{
+  font-weight:600;
+  font-size:2rem;
+  margin-top:25px;
+}
+
+
 
 section{
   max-width:800px;
