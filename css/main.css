@@ -68,7 +68,7 @@ html{
 /*HEADER*/
 
 .hero{
-  background-color:#14213d;
+  background-color:#eeeeee;
   padding:150px 0 25px 0;
   margin-bottom:25px;
 }
@@ -103,7 +103,7 @@ h1{
   font-size:4rem;
   margin:0;
   padding:0;
-  color:#e5e5e5;
+  color:#000000;
 }
 
 h2{
